@@ -11,10 +11,11 @@ for (let i = 0; i < rubricaEmail.length; i++) {
     if ( rubricaEmail[i] === request ) {
 
         alert('benvenuto nel nostro servizio');
+
         break;
 
-    } 
-    
-    
+    } else if (rubricaEmail[i] !== request && i == (rubricaEmail.length - 1))
 
+        alert('riprova, hai sbagliato email');
+    
 };
